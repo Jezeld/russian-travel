@@ -9,5 +9,7 @@
 @media screen and (max-width: 600px) {
     .place__website {
         padding: 0px 16px;
+        width: calc(100% - 16px*2);
     }
 }
+

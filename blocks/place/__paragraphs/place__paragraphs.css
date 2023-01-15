@@ -5,5 +5,12 @@
 @media screen and (max-width: 600px) {
     .place__paragraphs {
         padding: 0px 16px;
+        width: calc(100% - 16px);
+    }
+}
+@media screen and (max-width: 320px) {
+    .place__paragraphs {
+        padding: 0px 16px;
+        width: calc(100% - 16px*2);
     }
 }

@@ -1,12 +1,13 @@
 .footer__menu {
     list-style: none;
     display: flex;
+        padding: 0px;
+        margin: 0px;
+
 }
  @media screen and (max-width: 720px) {
     .footer__menu {
         flex-direction: column;
         width: 100%;
-        padding: 0px;
-        margin: 0px;
     }
 }

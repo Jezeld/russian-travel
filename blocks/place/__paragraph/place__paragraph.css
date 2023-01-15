@@ -7,3 +7,6 @@
     margin: 0px;
     padding: 0px 0px 26px;
 }
+.place__paragraph:last-of-type {
+    padding: 0px;
+}

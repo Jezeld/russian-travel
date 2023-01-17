@@ -1,19 +1,16 @@
 .header__lang-link {
     color: #fff;
     min-height: 28px;
-    max-width: 30px;
-    margin-right: 18px;
     font-size: 24px;
     line-height: 28px;
     font-weight: 400;
     display: inline-block;
+    text-decoration: none;
 }
 
-.header__lang-link:last-of-type {
+/* .header__lang-link:last-of-type {
     text-decoration: none;
-    width: 29px;
-    margin-right: 0px;
-}
+} */
 
 .header__lang-link:hover {
     color: #FFFFFF;
@@ -24,6 +21,5 @@
     .header__lang-link {
         font-size: 18px;
         line-height: 20px;
-        margin: 48px 0px 0px;
     }
 }

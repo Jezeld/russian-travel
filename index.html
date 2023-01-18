@@ -15,8 +15,8 @@
             srcset="./images/header-logo320.svg 142w, ./images/header-logo.svg 176w" sizes="(max-width: 320px) 142px,
         176px" alt="Логотип: Россия">
         <div class="header__menu">
-            <a href="#" class="header__lang-link header__lang-link_underline">Ru</a>
-            <a href="#" class="header__lang-link">En</a>
+            <a href="#" class="header__lang-link header__lang-link_active">Ru</a>
+            <a href="#" class="header__lang-link header__lang-link_active">En</a>
         </div>
     </header>
     <main class="content">
@@ -26,7 +26,7 @@
             <picture>
                 <source srcset="./images/lead-polka320.jpg" media="(max-width: 320px)">
                 <img src="./images/lead-polka.jpg" alt="Изображение путешествия по Росии с картой" class="lead__image">
-              </picture>
+            </picture>
             <p class="lead__caption">ваша полка &mdash; верхняя</p>
         </section>
         <section class="intro">
@@ -44,10 +44,12 @@
                     <p class="intro__list-text"><span class="intro__list-span">Часовых поясов</span> 11</p>
                 </li>
                 <li>
-                    <p class="intro__list-text"><span class="intro__list-span">Объектов природного наследия ЮНЕСКО</span> 12</p>
+                    <p class="intro__list-text"><span class="intro__list-span">Объектов природного наследия
+                            ЮНЕСКО</span> 12</p>
                 </li>
                 <li>
-                    <p class="intro__list-text"><span class="intro__list-span">Объектов культурного наследия ЮНЕСКО</span> 16</p>
+                    <p class="intro__list-text"><span class="intro__list-span">Объектов культурного наследия
+                            ЮНЕСКО</span> 16</p>
                 </li>
                 <li>
                     <p class="intro__list-text"><span class="intro__list-span">Природных заповедников</span> 105</p>
@@ -92,8 +94,8 @@
                         окуная в
                         спокойствие природы и запах стального, прохладного моря.</p>
                 </div>
-                </article>
-                <article class="place">
+            </article>
+            <article class="place">
                 <h2 class="place__title">Кольский</h2>
                 <div class="place__website">
                     <p class="place__url-heading">url</p>
@@ -174,26 +176,27 @@
             <div class="cover__backrgound">
                 <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__link" target="_blank">
                     <h2 class="cover__title">
-                        До Байкала «на собаках»
+                        До Байкала «на&nbsp;собаках»
                     </h2>
                     <p class="cover__subtitle">
-                        <span class="cover__span">По мотивам учебной темы о Транссибе — путешествие</span> от столицы до Байкала на электричках.
+                        По&nbsp;мотивам учебной темы о&nbsp;Транссибе &mdash; путешествие от&nbsp;столицы
+                        до&nbsp;Байкала на&nbsp;электричках.
                     </p>
                 </a>
             </div>
         </section>
     </main>
     <footer class="footer" aria-label="bottom">
-        <nav>
-        <ul class="footer__menu">
-            <li><a href="https://yandex.ru/maps" class="footer__link">Карты</a></li>
-            <li><a href="https://yandex.ru/pogoda" class="footer__link">Погода</a></li>
-            <li><a href="https://rasp.yandex.ru" class="footer__link">Расписание</a></li>
-            <li><a href="https://calendar.yandex.ru" class="footer__link">Календарь</a></li>
-            <li><a href="https://travel.yandex.ru" class="footer__link">Путешествия</a></li>
-        </ul>
+        <nav class="footer__menu">
+            <ul class="footer__list">
+                <li><a href="https://yandex.ru/maps" class="footer__link">Карты</a></li>
+                <li><a href="https://yandex.ru/pogoda" class="footer__link">Погода</a></li>
+                <li><a href="https://rasp.yandex.ru" class="footer__link">Расписание</a></li>
+                <li><a href="https://calendar.yandex.ru" class="footer__link">Календарь</a></li>
+                <li><a href="https://travel.yandex.ru" class="footer__link">Путешествия</a></li>
+            </ul>
+        </nav>
         <p class="footer__copyright">&copy; 2020. Денисова Евгения</p>
-    </nav>
     </footer>
 </body>
 
